@@ -8,6 +8,7 @@ import { NextResponse } from 'next/server';
 
 export default function handler(req, res) {
   // const { slug } = req.query;
+  console.log(req.body)
 
   res.end('');
 }

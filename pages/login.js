@@ -15,7 +15,7 @@ export default function Login({}) {
     <div>
       <UsernameFieldComponent userNameValue={userNameValue} setUserNameValue={setUserNameValue} />
       <PasswordFieldComponent passwordValue={passwordValue} setPasswordValue={setPasswordValue}  />
-      <LoginButtonComponent />
+      <LoginButtonComponent userName={userNameValue} password={passwordValue} />
     </div>
   </div>
   )
